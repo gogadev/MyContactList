@@ -1,0 +1,48 @@
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+}
+
+.form input {
+  width: 60%;
+  font-size: 1.4rem;
+  margin: 0.5rem auto;
+  padding: 0.2rem;
+  border: none;
+  border-bottom: 1px solid grey;
+  text-align: center;
+  letter-spacing: 3px;
+  outline: lightgrey;
+}
+
+.form-btn {
+  width: 30vw;
+  margin-top: 1.5rem;
+  display: grid;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  padding: 0.6rem;
+  transform: translateX(28rem);
+  cursor: pointer;
+  transition: all 1.5s ease;
+  background: whitesmoke;
+  border: 1px solid lightgrey;
+  outline: lightgrey;
+}
+
+.form-btn:hover {
+  letter-spacing: 10px;
+  background: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .form-btn {
+    transform: translateX(0.5rem);
+  }
+}

@@ -1,0 +1,54 @@
+.contact {
+  list-style-type: none;
+  width: 80vw;
+  display: grid;
+  justify-content: center;
+  justify-content: center;
+  margin: 1rem auto;
+  border: 1px solid lightgrey;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+.contact li {
+  font-size: 1.1rem;
+  letter-spacing: 5px;
+  margin: 0.1rem auto;
+  cursor: pointer;
+  transition: all 1.5s ease;
+}
+
+.contact:hover {
+  background: #ededed;
+  border: 1px dotted grey;
+}
+
+.btn {
+  width: 30vw;
+  display: grid;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  letter-spacing: 5px;
+  color: grey;
+  padding: 0.4rem;
+  cursor: pointer;
+  transition: 1s ease-in;
+  outline: lightgrey;
+}
+
+.btn:hover {
+  letter-spacing: 12px;
+  background: whitesmoke;
+  border: 1px dotted grey;
+}
+
+.contact-title {
+  transform: translateY(7rem);
+  text-align: center;
+}
+
+.user {
+  width: 3%;
+  transform: translateY(0.5rem);
+  opacity: 0.6;
+}
